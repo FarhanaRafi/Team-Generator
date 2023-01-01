@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <label for="name-input">Enter participant name:</label>
+            <input type="text" id="name-input" placeholder="Enter a name">
+            <button id="add-button">Add</button>
+            <br>
+            <label for="team-number-input">Enter number of teams:</label>
+            <input type="number" id="team-number-input" placeholder="Enter a number">
+            <button id="generate-teams-button">Generate Teams</button>
+        </form>
+        <div id="waiting-list">
+           
+            <h2>Waiting List  <button class="assign-btn" onClick="assignMembers()">Assign</button></h2>
+          
+            <ul id="waiting-list-items">
+                 <!-- participant names will be added here as list items-->
+            </ul>
+          
+        </div>
+        <div id="team-container" class="flex-container">
+             <!--teams will be added here as flex items-->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
