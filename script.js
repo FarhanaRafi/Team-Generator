@@ -51,17 +51,6 @@ addButton.addEventListener("click", function () {
   nameInput.value = "";
 });
 
-// generateTeamsButton.addEventListener("click", function () {
-//   // Assign a random participant from the waiting list to a random team
-//   if (waitingList.children.length > 0) {
-//     let randomIndex = Math.floor(Math.random() * waitingList.children.length);
-//     let randomTeam = teams[Math.floor(Math.random() * teams.length)];
-//     let participant = waitingList.children[randomIndex];
-//     randomTeam.querySelector("ul").appendChild(participant);
-//     waitingList.removeChild(participant);
-//   }
-// });
-
 function assignMembers(e) {
   let randomIndex = Math.floor(Math.random() * waitingList.children.length);
   let participant = waitingList.children[randomIndex];

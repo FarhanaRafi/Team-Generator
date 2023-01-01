@@ -1,72 +1,81 @@
-body{
+body {
     margin: 0;
     background-color: rgb(212, 201, 203);
 }
-#form{
-   margin-top: 3%;
-   margin-left: 30%;
-  margin-right: 30%;
+
+#form {
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
-#name-input{
+
+#name-input {
     margin-bottom: 25px;
     width: 200px;
     height: 20px;
     border-radius: 10px;
     padding: 3px;
 }
-label{
+
+label {
     font-size: 20px;
     color: palevioletred;
 }
 
-#team-number-input{
+#team-number-input {
     margin-bottom: 25px;
     width: 200px;
     height: 20px;
     border-radius: 10px;
     padding: 3px;
 }
-button{
+
+button {
     padding: 4px;
     border-radius: 10px;
     background-color: transparent;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(239, 178, 198);
 }
-#add-button{
+
+#add-button {
     width: 70px;
 }
+
 #waiting-list {
     margin-top: 2em;
     width: 40%;
-  }
-  
-  #waiting-list h2 {
+}
+
+#waiting-list h2 {
     text-align: center;
-  }
-  #waiting-list ul {
+}
+
+#waiting-list ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  #waiting-list li {
+}
+
+#waiting-list li {
     margin-left: 10%;
     padding: 0.5em;
     border: 1px solid #ccc;
     margin-bottom: 0.5em;
-  }
-  
-  .flex-container {
+}
+
+.flex-container {
     margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
     margin-top: 2em;
-  }
-  
-  .team {
+}
+
+.team {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,38 +83,39 @@ button:hover{
     border: 1px solid #ccc;
     padding: 1em;
     margin-bottom: 2em;
-  }
-  
-  .team h3 {
+}
+
+.team h3 {
     text-align: center;
     margin-bottom: 0.5em;
-  }
-  
-  .team ul {
-     border: 1px solid black;
-     border-radius: 10px;
-     border-color: palevioletred;
+}
+
+.team ul {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: palevioletred;
     list-style: none;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
     margin: 0;
-  }
-  
-  .team ul li {
+}
+
+.team ul li {
     padding: 0.5em;
     margin-bottom: 0.5em;
-  }
-  
-  .team button {
+}
+
+.team button {
     margin-top: 1em;
     padding: 0.5em 1em;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  .assign-btn{
+}
+
+.assign-btn {
     margin-left: 7%;
     width: 70px;
     padding: 9px;
-  }
+}
