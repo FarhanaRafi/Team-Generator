@@ -19,7 +19,7 @@ body {
 
 label {
     font-size: 20px;
-    color: palevioletred;
+    color: rgb(101, 69, 69);
 }
 
 #team-number-input {
@@ -37,7 +37,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(239, 178, 198);
+    background-color: rgb(180, 158, 158);
 }
 
 #add-button {
@@ -45,11 +45,16 @@ button:hover {
 }
 
 #waiting-list {
+    border: 1px solid rgb(180, 158, 158);
     margin-top: 2em;
-    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
 
 #waiting-list h2 {
+    font-size: 34px;
+    color: rgb(101, 69, 69);
     text-align: center;
 }
 
@@ -60,19 +65,27 @@ button:hover {
 }
 
 #waiting-list li {
-    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 36%;
     padding: 0.5em;
-    border: 1px solid #ccc;
     margin-bottom: 0.5em;
 }
 
+.heading-team {
+    font-size: 34px;
+    color: rgb(101, 69, 69);
+    text-align: center;
+}
+
+
 .flex-container {
+    margin-top: 2em;
+    text-align: center;
     margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
-    margin-top: 2em;
 }
 
 .team {
@@ -80,7 +93,8 @@ button:hover {
     flex-direction: column;
     align-items: center;
     width: 30%;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(180, 158, 158);
+    border-radius: 10px;
     padding: 1em;
     margin-bottom: 2em;
 }
@@ -91,9 +105,7 @@ button:hover {
 }
 
 .team ul {
-    border: 1px solid black;
     border-radius: 10px;
-    border-color: palevioletred;
     list-style: none;
     padding-left: 25px;
     padding-right: 25px;
@@ -109,13 +121,13 @@ button:hover {
 .team button {
     margin-top: 1em;
     padding: 0.5em 1em;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(145, 131, 131);
+    border: 1px solid rgb(128, 127, 127);
     border-radius: 4px;
 }
 
 .assign-btn {
-    margin-left: 7%;
+    margin-left: 1%;
     width: 70px;
     padding: 9px;
 }
